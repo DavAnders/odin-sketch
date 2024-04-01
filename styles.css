@@ -47,3 +47,7 @@ button {
 button:active {
   background-color: darkcyan;
 }
+
+#colorPicker {
+  margin-top: 20px;
+}
