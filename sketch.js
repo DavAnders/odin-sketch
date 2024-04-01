@@ -1,5 +1,13 @@
 const container = document.getElementById("gridContainer");
 
+function handleMouseEnter() {
+  this.style.backgroundColor = "#f00";
+}
+
+function handleMouseLeave() {
+  this.style.backgroundColor = "grey";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   for (let i = 0; i < 16; i++) {
     const div = document.createElement("div");
@@ -9,6 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const innerDiv = document.createElement("div");
       innerDiv.classList.add("gridItemInner");
       div.appendChild(innerDiv);
+
+      innerDiv.addEventListener("mouseenter", handleMouseEnter);
+      innerDiv.addEventListener("mouseleave", handleMouseLeave);
     }
   }
 });
