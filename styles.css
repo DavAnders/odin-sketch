@@ -1,6 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .gridItemOuter {
   display: flex;
-  width: 320px;
 }
 
 .gridItemOuter,
@@ -11,4 +17,8 @@
 .gridItemInner {
   width: 20px;
   height: 20px;
+}
+
+#changeGrid {
+  margin-bottom: 20px;
 }
