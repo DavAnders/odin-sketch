@@ -1,0 +1,14 @@
+.gridItemOuter {
+  display: flex;
+  width: 320px;
+}
+
+.gridItemOuter,
+.gridItemInner {
+  background-color: aquamarine;
+}
+
+.gridItemInner {
+  width: 20px;
+  height: 20px;
+}
