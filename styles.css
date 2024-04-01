@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: teal;
 }
 
 .gridItemOuter {
@@ -11,7 +12,7 @@ body {
 
 .gridItemOuter,
 .gridItemInner {
-  background-color: aquamarine;
+  background-color: #f0f0f0;
 }
 
 .gridItemInner {
@@ -21,4 +22,28 @@ body {
 
 #changeGrid {
   margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#gridSizeInput {
+  margin-bottom: 4px;
+}
+
+#gridContainer {
+  border: 4px solid black;
+}
+
+button {
+  background-color: teal;
+  color: whitesmoke;
+  padding: 8px 16px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+}
+
+button:active {
+  background-color: darkcyan;
 }
